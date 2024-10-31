@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Murilo, Miguel Augusto e Leonardo Cabral</title>
+    <script src="god.js"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body id="corpinho">
+    <header id="corpo">
+    <nav class="envelope">
+        <a href="index.html"><img src="/godofwarps5.png" alt="" class="inicio"></a>
+        <a href="blogs.html"><img src="/book_2663888.png" alt="" class="blog"></a>
+        <a href="noticias.html"><img src="/transferir.png" alt="" class="noticias"></a>
+        <a href="contatos.html"><img src="/download.png" alt="" class="contato"></a>
+       <button onclick= "AtivarModoEscuro(true)" > Modo Escuro </button>
+       <button onclick= "AtivarModoEscuro(false)" > Modo claro </button>
+
+    </nav>
+    
+    <div>
+<form action="">
+
+<h1>Login</h1>
+<input type="email" placeholder="email">
+<div class=""></div class="">
+<input type="senha" placeholder="senha">
+<button>Enviar</button>
+<button onclick="cumprimentar()">
+        Notificar
+        <button id ="botao"></button>
+    </button>
+</form>
+    </div>
+    </header>
+    
+      
+        <script>
+        function cumprimentar(){
+            prompt("falaaa Tî, coloque seu nome pf")
+        }
+         
+        function AtivarModoEscuro(estado){
+            if (estado == true){
+         document.getElementById("corpinho").
+         style.background = '#000'
+         document.getElementById("corpo").
+         style.Color = '#3d5b67'
+        }else {
+                document.getElementById ("corpinho").style.backgroundColor = '#3d5b67'
+                document.getElementById ("corpo").style.backgroundColor = '#3d5b67'
+        }
+        }
+        let botao = document.getElementById("botao").addEventListener("click", ()=>{
+            alert("oiee")
+        })
+        
+
+            </script>
+
+
+</body>
+</html>

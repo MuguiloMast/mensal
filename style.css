@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap');
+
+
+html{
+width: 100%;
+ height: 100%;
+}
+
+#corpinho{
+width: 100%;
+overflow: hidden;
+    background-image: url('/kratos.jpg');
+background-position:top;
+background-size: cover;
+background-repeat: no-repeat;
+color: rgb(255, 255, 255);
+font-family: "Caesar Dressing", system-ui;
+  
+
+    
+    }
+    @media (max-width: 538px) {
+    
+        nav {
+            flex-direction: row;
+        }
+    }
+
+    div{
+background-color: rgba(161, 180, 199, 0);
+
+
+
+}
+input{
+padding: 10px;
+width: 80%;
+
+}
+
+button{
+background-color: rgb(255, 255, 255);
+border-radius: 32px;
+padding: 2px;
+width: 40%;
+}
+form{
+width: 60%;
+display: flex;
+flex-direction: column;
+margin: auto;
+
+
+}
+
+
+button{
+    background-color: rgba(50, 100, 236, 0.863);
+
+
+}
+button:hover{
+    background-color: rgb(255, 299, 0);
+
+}
+nav{
+    border-radius: 32px;
+    padding: 2px;
+    width: 40%;
+}
+
+
+.inicio{
+    max-width: 6em;
+    max-height: 6em;
+}
+.blog{
+    max-width: 2em;
+    max-height: 2em;
+}
+.contato{
+    max-width: 2em;
+    max-height: 2em;
+}
+.noticias{
+    max-width: 3em;
+    max-height: 3em;
+}
+
+h1{
+
+
+
+    
+}
